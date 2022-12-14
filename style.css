@@ -7,8 +7,17 @@
 .main-link::before {
   content: '';
   display: inline-block;
-  background: var(--black-brand);
+  background: transparent;
   width: 5px;
   height: 5px;
-  margin-right: 5px;
+  position: absolute;
+  left: 50%;
+  transition: 0.2s;
+  transform: rotate(0deg);
+}
+
+.main-link:hover::before {
+  background-color: var(--black-brand);
+  left: 24%;
+  transform: rotate(225deg);
 }
