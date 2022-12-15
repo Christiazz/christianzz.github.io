@@ -27,3 +27,7 @@ a.main-link.special:hover::before,
 a.main-link.special.w--current::before {
   left: 20%;
 }
+
+.active-lang-indicator {
+  left: 16px;
+}
