@@ -7,3 +7,5 @@ function linkIndicator() {
     LangIndicator.classList.add('active-lang-indicator');
   }
 }
+
+linkIndicator();
