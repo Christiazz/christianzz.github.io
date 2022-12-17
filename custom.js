@@ -1,10 +1,6 @@
-const linkEng = document.querySelector('#link-eng');
-const linkIta = document.querySelector('#link-ita');
-const LangIndicator = document.querySelector('lang-dicator');
-
-console.log(linkIta);
-console.log(linkEng);
-console.log(LangIndicator);
+const linkEng = document.getElementById('link-eng');
+const linkIta = document.getElementById('link-ita');
+const LangIndicator = document.querySelector('#lang-dicator');
 
 function noAddActive() {
   linkEng.classList.add('de-active');
@@ -24,7 +20,3 @@ if (linkIta.classList.contains('weglot-link--active')) {
 } else if (linkEng.classList.contains('weglot-link--active')) {
   LangIndicator.classList.add('de-active');
 }
-
-console.log(linkIta);
-console.log(linkEng);
-console.log(LangIndicator);
