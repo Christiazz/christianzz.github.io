@@ -1,5 +1,5 @@
-const linkEng = document.getElementsByClassName('weglot-link-en');
-const linkIta = document.getElementsByClassName('weglot-link-it');
+const linkEng = document.querySelector('#link-eng');
+const linkIta = document.querySelector('#link-ita');
 const LangIndicator = document.getElementById('lang-dicator');
 
 console.log(linkIta);
