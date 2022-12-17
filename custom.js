@@ -12,4 +12,4 @@ function linkIndicator() {
   }
 }
 
-linkIndicator();
+window.addEventListener('onload', linkIndicator);
