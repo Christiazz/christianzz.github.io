@@ -4,12 +4,8 @@ const LangIndicator = document.getElementById('lang-dicator');
 
 console.log(linkIta);
 
-function linkIndicator() {
-  if (linkIta.classList.contains('weglot-link--active')) {
-    LangIndicator.classList.add('active');
-  } else if (linkEng.classList.contains('weglot-link--active')) {
-    LangIndicator.classList.add('de-active');
-  }
+if (linkIta.classList.contains('weglot-link--active')) {
+  LangIndicator.classList.add('active');
+} else if (linkEng.classList.contains('weglot-link--active')) {
+  LangIndicator.classList.add('de-active');
 }
-
-window.addEventListener('onload', linkIndicator);
