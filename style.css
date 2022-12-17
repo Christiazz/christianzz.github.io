@@ -28,10 +28,12 @@ a.main-link.special.w--current::before {
   left: 20%;
 }
 
-.active-lang-indicator {
-  left: 14px !important;
+.active {
+  transform: translate3d(14px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
 }
 
-.de-active-lang-indicator {
-  left: 0 !important;
+.de-active {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
 }
