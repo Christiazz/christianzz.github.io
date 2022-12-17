@@ -31,6 +31,7 @@ a.main-link.special.w--current::before {
 .lang-indicator.active {
   animation: toggle-lang-it .2s ease-in-out delay forwards;
   transform-style: preserve-3d !important;
+  left: 14px;
 }
 
 @keyframes toggle-lang-it {
