@@ -28,8 +28,8 @@ a.main-link.special.w--current::before {
   left: 20%;
 }
 
-.weglot-link-it.active-lang-indicator {
-  left: 16px !important;
+.active-lang-indicator {
+  left: 14px !important;
 }
 
 .de-active-lang-indicator {
