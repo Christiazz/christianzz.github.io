@@ -5,6 +5,8 @@ const LangIndicator = document.getElementsByClassName('lang-indicator');
 function linkIndicator() {
   if (linkIta.classList.contains('weglot-link--active')) {
     LangIndicator.classList.add('active-lang-indicator');
+  } else if (linkEng.classList.contains('weglot-link--active')) {
+    LangIndicator.classList.add('de-active-lang-indicator');
   }
 }
 

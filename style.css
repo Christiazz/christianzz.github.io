@@ -31,3 +31,7 @@ a.main-link.special.w--current::before {
 .weglot-link-it.active-lang-indicator {
   left: 16px !important;
 }
+
+.de-active-lang-indicator {
+  left: 0 !important;
+}
