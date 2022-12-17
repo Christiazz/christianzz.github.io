@@ -29,11 +29,11 @@ a.main-link.special.w--current::before {
 }
 
 .active {
-  transform: translate3d(14px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg) !important;
+  transform: translate3d(14px, 0px, 0px) !important;
   transform-style: preserve-3d !important;
 }
 
 .de-active {
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px);
   transform-style: preserve-3d;
 }
