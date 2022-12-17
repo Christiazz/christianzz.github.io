@@ -5,7 +5,7 @@ const LangIndicator = document.querySelector('#lang-dicator');
 if (linkIta.classList.contains('active')) {
   LangIndicator.classList.add('active');
 } else {
-  return;
+  LangIndicator.classList.remove('active');
 }
 
 function noAddActive() {
