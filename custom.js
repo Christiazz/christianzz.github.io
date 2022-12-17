@@ -2,6 +2,12 @@ const linkEng = document.getElementById('link-eng');
 const linkIta = document.getElementById('link-ita');
 const LangIndicator = document.querySelector('#lang-dicator');
 
+if (linkIta.classList.contains('active')) {
+  LangIndicator.classList.add('active');
+} else {
+  return;
+}
+
 function noAddActive() {
   linkEng.classList.add('de-active');
   LangIndicator.classList.remove('active');
