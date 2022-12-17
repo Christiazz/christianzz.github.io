@@ -2,7 +2,7 @@ const linkEng = document.getElementsByClassName('weglot-link-en');
 const linkIta = document.getElementsByClassName('weglot-link-it');
 const LangIndicator = document.getElementById('lang-dicator');
 
-console.log(LangIndicator);
+console.log(linkIta);
 
 function linkIndicator() {
   if (linkIta.classList.contains('weglot-link--active')) {
