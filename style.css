@@ -33,7 +33,7 @@ a.main-link.special.w--current::before {
   transform-style: preserve-3d !important;
 }
 
-.active-state {
+.lang-indicator.active-state {
   left: 14px;
 }
 
