@@ -29,9 +29,7 @@ a.main-link.special.w--current::before {
 }
 
 .lang-indicator.active {
-  animation-name: toggle-lang-it;
-  animation-duration: .2s;
-  animation-timing-function: ease-in-out;
+  animation: toggle-lang-it .2s ease-in-out delay forwards;
   transform-style: preserve-3d !important;
 }
 
