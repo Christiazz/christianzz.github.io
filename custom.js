@@ -3,7 +3,7 @@ const linkIta = document.getElementById('link-ita');
 const LangIndicator = document.getElementById('lang-dicator');
 
 if (linkIta.classList.contains('active')) {
-  LangIndicator.style.left = '14px';
+  LangIndicator.classList.add('active-state');
 }
 
 function noAddActive() {

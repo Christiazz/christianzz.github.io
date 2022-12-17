@@ -33,6 +33,10 @@ a.main-link.special.w--current::before {
   transform-style: preserve-3d !important;
 }
 
+.active-state {
+  left: 14px;
+}
+
 @keyframes toggle-lang-it {
   0% {
     transform: translate3d(0px, 0px, 0px);
