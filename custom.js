@@ -8,7 +8,6 @@ if (linkIta.classList.contains('active')) {
 
 function noAddActive() {
   linkEng.classList.add('de-active');
-  LangIndicator.classList.remove('active');
 }
 
 function addActive() {

@@ -37,6 +37,11 @@ a.main-link.special.w--current::before {
   left: 14px;
 }
 
+.lang-indicator.de-active {
+  animation: toggle-lang-en .2s ease-in-out forwards !important;
+  transform-style: preserve-3d;
+}
+
 @keyframes toggle-lang-it {
   0% {
     transform: translate3d(0px, 0px, 0px);
@@ -55,9 +60,4 @@ a.main-link.special.w--current::before {
   100% {
     transform: translate3d(0px, 0px, 0px);
   }
-}
-
-.lang-indicator.de-active {
-  animation: toggle-lang-en .2s ease-in-out forwards !important;
-  transform-style: preserve-3d;
 }
