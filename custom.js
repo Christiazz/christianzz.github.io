@@ -1,9 +1,9 @@
 const linkEng = document.getElementById('link-eng');
 const linkIta = document.getElementById('link-ita');
-const LangIndicator = document.querySelector('#lang-dicator');
+const LangIndicator = document.getElementById('lang-dicator');
 
 if (linkIta.classList.contains('active')) {
-  LangIndicator.style.Left = '14px';
+  LangIndicator.style.left = '14px';
 }
 
 function noAddActive() {
