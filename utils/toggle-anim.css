@@ -201,7 +201,20 @@
   height: 2px;
   border-radius: 0%;
   top: 48%;
+  transform: rotate(-20deg);
   /* animation: close-elem-6 4s ease-in-out infinite;  */
+}
+
+.close-elem._7 {
+  left: 32px;
+  top: 12px;
+  display: block;
+  width: 70px;
+  left: 0;
+  height: 2px;
+  border-radius: 0%;
+  top: 48%;
+  transform: rotate(20deg);
 }
 
 /*
