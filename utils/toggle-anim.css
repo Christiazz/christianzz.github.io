@@ -1,14 +1,16 @@
 :root {
-  --time: 0.8s;
+  --time: 1s;
   --move-down: 2px;
   --move-up: -2px;
+  --move-right: 2px;
+  --move-left: -2px;
 }
 
 .toggle-elem._2 {
-  animation: elem1 var(--time) ease-in-out infinite;
+  animation: elem2 var(--time) ease-in-out infinite;
 }
 
-@keyframes elem1 {
+@keyframes elem2 {
   0% {
     transform: translateY(0);
   }
@@ -37,5 +39,41 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+
+.toggle-elem._4 {
+  animation: elem4 var(--time) ease-in-out infinite;
+}
+
+@keyframes elem4 {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(var(--move-right));
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.toggle-elem._6 {
+  animation: elem6 var(--time) ease-in-out infinite;
+}
+
+@keyframes elem6 {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(var(--move-left));
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
