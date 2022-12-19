@@ -4,7 +4,7 @@
   --move-up: -2px;
   --move-right: 2px;
   --move-left: -2px;
-  --time-opacity: .5s;
+  --time-opacity: 0.8s;
 }
 
 .toggle-elem._2 {
@@ -220,11 +220,11 @@
 
 /* Animazione cornice offcanvas */
 
-.off-corner.up-left {
+.page-dicator-offc {
   animation: corner-opacity-1 var(--time-opacity) ease-in-out infinite;
 }
 
-@keyframes corner-opacity-1 {
+@keyframes indicator-opacity-offc {
   0% {
     opacity: 0;
   }
