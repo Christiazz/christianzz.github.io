@@ -196,18 +196,23 @@
 
 .close-elem._6 {
   width: 70px;
-  transform: rotate(21deg);
-  left: 0;
-  height: 1px;
-  border-radius: 0%;
-  top: 48%;
-}
-
-.close-elem._6 {
-  width: 70px;
-  transform: rotate(-21deg);
   left: 0;
   height: 2px;
   border-radius: 0%;
   top: 48%;
+  animation: close-elem-6 2s ease-in-out infinite;
+}
+
+@keyframes close-elem-6 {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-20deg);
+  }
 }
