@@ -17,3 +17,5 @@ function addActive() {
 
 linkEng.addEventListener('click', noAddActive);
 linkIta.addEventListener('click', addActive);
+
+// logica lang-indicator solo per lingue mobile
