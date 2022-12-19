@@ -193,3 +193,21 @@
     transform: scale3d(12.5, 0.5, 1.2);
   }
 }
+
+.close-elem._6 {
+  width: 70px;
+  transform: rotate(21deg);
+  left: 0;
+  height: 1px;
+  border-radius: 0%;
+  top: 48%;
+}
+
+.close-elem._6 {
+  width: 70px;
+  transform: rotate(-21deg);
+  left: 0;
+  height: 2px;
+  border-radius: 0%;
+  top: 48%;
+}
