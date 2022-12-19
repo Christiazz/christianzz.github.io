@@ -61,7 +61,3 @@ a.main-link.special.w--current::before {
     transform: translate3d(0px, 0px, 0px);
   }
 }
-
-.offc-lingue-container .lang-container.wg-element-wrapper.sw4 {
-  display: block;
-}
