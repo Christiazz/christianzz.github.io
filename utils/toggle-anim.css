@@ -159,6 +159,7 @@
   }
 }
 
+/* 
 .toggle-elem._5 {
   animation: elem5 var(--time) ease-in-out infinite;
 }
@@ -194,6 +195,8 @@
     transform: scale3d(7, 0.5, 1.2);
   }
 }
+
+*/
 
 .close-elem._6 {
   width: 70px;
