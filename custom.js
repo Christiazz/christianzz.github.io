@@ -49,6 +49,10 @@ const closeOffc = document.querySelector('.toggle-close-container');
 function trigOff() {
   closeUno.classList.add('close-active-sei');
   closeDue.classList.add('close-active-sette');
+  setTimeout(function () {
+    closeUno.classList.remove('close-active-sei');
+    closeDue.classList.remove('close-active-sette');
+  }, 3000);
 }
 
 closeOffc.addEventListener('click', trigOff);
