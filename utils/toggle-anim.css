@@ -157,3 +157,21 @@
     transform: translateY(0);
   }
 }
+
+.toggle-elem._5 {
+  animation: elem5 var(--time) ease-in-out infinite;
+}
+
+@keyframes elem5 {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
