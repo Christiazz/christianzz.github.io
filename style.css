@@ -61,3 +61,30 @@ a.main-link.special.w--current::before {
     transform: translate3d(0px, 0px, 0px);
   }
 }
+
+@media screen and (max-width: 479px) {
+
+  .main-link:hover::before,
+  .main-link.w--current::before {
+    border-radius: 0;
+    background: white;
+    position: static;
+    margin-right: 10px;
+    animation: indicator-opacity-offc var(--time-opacity) ease-in-out infinite;
+  }
+
+  @keyframes indicator-opacity-offc {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+}

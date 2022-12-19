@@ -219,21 +219,3 @@
 }
 
 /* Animazione cornice offcanvas */
-
-.page-dicator-offc {
-  animation: corner-opacity-1 var(--time-opacity) ease-in-out infinite;
-}
-
-@keyframes indicator-opacity-offc {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
