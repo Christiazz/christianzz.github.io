@@ -77,3 +77,24 @@
     transform: translateX(0);
   }
 }
+
+.toggle-elem._1 {
+  animation: elem1 var(--time) ease-in-out infinite;
+}
+
+@keyframes elem1 {
+  0% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateX(var(--move-right));
+    transform: translateY(var(--move-down));
+  }
+
+  100% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
