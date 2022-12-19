@@ -1,5 +1,11 @@
+:root {
+  --time: 0.8s;
+  --move-down: 2px;
+  --move-up: -2px;
+}
+
 .toggle-elem._2 {
-  animation: elem1 0.2s ease-in-out infinite;
+  animation: elem1 var(--time) ease-in-out infinite;
 }
 
 @keyframes elem1 {
@@ -8,7 +14,25 @@
   }
 
   50% {
-    transform: translateY(2px);
+    transform: translateY(var(--move-down));
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.toggle-elem._8 {
+  animation: elem8 var(--time) ease-in-out infinite;
+}
+
+@keyframes elem8 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(var(--move-up));
   }
 
   100% {
