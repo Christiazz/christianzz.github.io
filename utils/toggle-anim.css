@@ -89,8 +89,7 @@
   }
 
   50% {
-    transform: translateX(var(--move-right));
-    transform: translateY(var(--move-down));
+    transform: translate(var(--move-right), var(--move-down));
   }
 
   100% {
