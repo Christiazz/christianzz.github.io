@@ -221,7 +221,7 @@
 /* Animazione cornice offcanvas */
 
 .off-corner.up-left {
-  animation: corner-opacity-1 var(--time-opacity) ease-in-out 0 alternate;
+  animation: corner-opacity-1 var(--time-opacity) ease-in-out infinite;
 }
 
 @keyframes corner-opacity-1 {
