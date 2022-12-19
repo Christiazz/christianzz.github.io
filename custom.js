@@ -44,14 +44,11 @@ linkItaOff.addEventListener('click', addActive);
 
 const closeUno = document.querySelector('.close-elem._6');
 const closeDue = document.querySelector('.close-elem._7');
+const closeOffc = document.querySelector('.toggle-close-container');
 
-function trigOffUno() {
+function trigOff() {
   closeUno.classList.add('close-active-sei');
-}
-
-function trigOffDue() {
   closeDue.classList.add('close-active-sette');
 }
 
-closeUno.addEventListener('click', trigOffUno);
-closeDue.addEventListener('click', trigOffDue);
+closeOffc.addEventListener('click', trigOff);
