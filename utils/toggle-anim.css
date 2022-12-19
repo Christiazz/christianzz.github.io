@@ -4,6 +4,7 @@
   --move-up: -2px;
   --move-right: 2px;
   --move-left: -2px;
+  --time-opacity: .5s;
 }
 
 .toggle-elem._2 {
@@ -214,5 +215,81 @@
 
   100% {
     transform: rotate(-20deg);
+  }
+}
+
+/* Animazione cornice offcanvas */
+
+.off-corner.up-left {
+  animation: corner-opacity-1 var(--time-opacity) ease-in-out 0 infinite;
+}
+
+@keyframes corner-opacity-1 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.off-corner.up-right {
+  animation: corner-opacity-2 var(--time-opacity) ease-in-out 0.5s infinite;
+}
+
+@keyframes corner-opacity-2 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.off-corner.down-left {
+  animation: corner-opacity-3 var(--time-opacity) ease-in-out 1s infinite;
+}
+
+@keyframes corner-opacity-3 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.off-corner.down-right {
+  animation: corner-opacity-4 var(--time-opacity) ease-in-out 1.5s infinite;
+}
+
+@keyframes corner-opacity-4 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
