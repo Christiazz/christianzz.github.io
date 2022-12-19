@@ -175,3 +175,21 @@
     transform: scale3d(0.5, 5, 1.2);
   }
 }
+
+.toggle-elem._10 {
+  animation: elem10 var(--time) ease-in-out infinite;
+}
+
+@keyframes elem10 {
+  0% {
+    transform: scale3d(5, 0.5, 1.2);
+  }
+
+  50% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  100% {
+    transform: scale3d(5, 0.5, 1.2);
+  }
+}
