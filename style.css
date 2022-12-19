@@ -87,11 +87,13 @@ a.main-link.special.w--current::before {
     }
   }
 
-  .lang-wrapper-offc a,
   .lang-wrapper-offc .lang-separator,
   .lang-wrapper-offc .lang-indicator {
-    color: white;
     background-color: white;
+  }
+
+  .lang-wrapper-offc a {
+    color: white;
   }
 
 }
