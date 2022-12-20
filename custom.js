@@ -78,10 +78,10 @@ function carousel() {
   }
 
   function moveFirst() {
-    x -= speed;
+    x = x - speed;
 
     if (width >= Math.abs(x)) {
-      list.style.left = `-${x}px`;
+      list.style.left = `${x}px`;
     } else {
       x = width;
     }
@@ -92,7 +92,6 @@ function carousel() {
 
     if (list2.offsetWidth >= Math.abs(x2)) {
       list2.style.left = `${x2}px`;
-      list.style.left = `${x}px`;
     } else {
       x2 = width;
     }
