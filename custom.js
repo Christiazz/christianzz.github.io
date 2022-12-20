@@ -52,12 +52,14 @@ function trigOff() {
   setTimeout(function () {
     closeUno.classList.remove('close-active-sei');
     closeDue.classList.remove('close-active-sette');
-  }, 1500);
+  }, 500);
 }
 
 closeOffc.addEventListener('click', trigOff);
 
 // CAROSELLO
+
+/*
 
 function carousel() {
   let carouselSlider = document.querySelector(".carousel__slider");
@@ -104,3 +106,5 @@ function carousel() {
 }
 
 carousel();
+
+*/
