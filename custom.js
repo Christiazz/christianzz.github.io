@@ -97,23 +97,9 @@ function carousel() {
     }
   }
 
-  function hover() {
-    clearInterval(a);
-    clearInterval(b);
-  }
-
-  function unhover() {
-    a = setInterval(moveFirst, 10);
-    b = setInterval(moveSecond, 10);
-  }
-
-  clone();
-
   let a = setInterval(moveFirst, 10);
+  clone();
   let b = setInterval(moveSecond, 10);
-
-  carouselSlider.addEventListener("mouseenter", hover);
-  carouselSlider.addEventListener("mouseleave", unhover);
 }
 
 carousel();
