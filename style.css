@@ -101,4 +101,10 @@ a.main-link.special.w--current::before {
     width: max-content;
   }
 
+  .carousel__item:hover {
+    transform: scale(1.1);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
 }
