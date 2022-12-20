@@ -96,4 +96,9 @@ a.main-link.special.w--current::before {
     color: white;
   }
 
+  li.carousel__item div,
+  li.carousel__item img {
+    width: max-content;
+  }
+
 }
