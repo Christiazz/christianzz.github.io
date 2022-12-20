@@ -91,7 +91,7 @@ function carousel() {
     x2 -= speed;
 
     if (list2.offsetWidth >= Math.abs(x2)) {
-      list.style.left = `${x2}px`;
+      list2.style.left = `${x2}px`;
     } else {
       x2 = width;
     }
