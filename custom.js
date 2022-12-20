@@ -61,9 +61,11 @@ closeOffc.addEventListener('click', trigOff);
 
 const menuOffcanvas = document.querySelector('.offcanvas');
 var menuOffcanvasToggle = document.querySelector('.offcanvas-toggle-menu');
+var docu = document.querySelector('html');
 
 function toggleOffcanvas() {
   menuOffcanvas.classList.add('active');
+  docu.style.overflow = 'hidden';
 }
 
 menuOffcanvasToggle.addEventListener('click', toggleOffcanvas);
