@@ -101,4 +101,8 @@ a.main-link.special.w--current::before {
     width: max-content;
   }
 
+  .offcanvas.active {
+    overflow: hidden;
+  }
+
 }

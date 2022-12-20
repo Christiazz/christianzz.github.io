@@ -52,7 +52,7 @@ function trigOff() {
   setTimeout(function () {
     closeUno.classList.remove('close-active-sei');
     closeDue.classList.remove('close-active-sette');
-  }, 2500);
+  }, 3000);
 }
 
 closeOffc.addEventListener('click', trigOff);
@@ -60,15 +60,10 @@ closeOffc.addEventListener('click', trigOff);
 /* bloccare lo scroll del body quando l'offcanvas è attivo */
 
 const menuOffcanvas = document.querySelector('.offcanvas');
-var body = document.querySelector('body');
 var menuOffcanvasToggle = document.querySelector('.offcanvas-toggle-menu');
 
 function toggleOffcanvas() {
   menuOffcanvas.classList.add('active');
-}
-
-if (menuOffcanvas.classList.contains('active')) {
-  body.style.overflowY = 'hidden';
 }
 
 menuOffcanvasToggle.addEventListener('click', toggleOffcanvas);
