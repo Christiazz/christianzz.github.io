@@ -64,7 +64,7 @@ var menuOffcanvasToggle = document.querySelector('.offcanvas-toggle-menu');
 var docu = document.querySelector('html');
 
 function toggleOffcanvas() {
-  if (menuOffcanvas.classList.contains('active') && docu.style.overflow == `hidden`) {
+  if (menuOffcanvas.classList.contains('active')) {
     menuOffcanvas.classList.remove('active');
     docu.style.overflow = 'auto';
   } else {
