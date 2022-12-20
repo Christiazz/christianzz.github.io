@@ -60,9 +60,9 @@ closeOffc.addEventListener('click', trigOff);
 // CAROSELLO
 
 function carousel() {
-  let carouselSlider = document.querySelector('.carousel__slider');
-  let list = document.querySelector('.carousel__list');
-  let item = document.querySelectorAll('.carousel__item');
+  let carouselSlider = document.querySelector(".carousel__slider");
+  let list = document.querySelector(".carousel__list");
+  let item = document.querySelectorAll(".carousel__item");
   let list2;
 
   const speed = 1;
@@ -81,7 +81,7 @@ function carousel() {
     x -= speed;
 
     if (width >= Math.abs(x)) {
-      list.style.left = `${x}px!important`;
+      list.style.left = `${x}px`;
     } else {
       x = width;
     }
@@ -97,10 +97,23 @@ function carousel() {
     }
   }
 
+  function hover() {
+    clearInterval(a);
+    clearInterval(b);
+  }
+
+  function unhover() {
+    a = setInterval(moveFirst, 10);
+    b = setInterval(moveSecond, 10);
+  }
+
   clone();
 
   let a = setInterval(moveFirst, 10);
   let b = setInterval(moveSecond, 10);
+
+  carouselSlider.addEventListener("mouseenter", hover);
+  carouselSlider.addEventListener("mouseleave", unhover);
 }
 
 carousel();
