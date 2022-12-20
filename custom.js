@@ -68,7 +68,7 @@ function carousel() {
   const speed = 1;
 
   const width = list.offsetWidth;
-  let x = 20;
+  let x = 0;
   let x2 = width;
 
   function clone() {
