@@ -52,7 +52,7 @@ function trigOff() {
   setTimeout(function () {
     closeUno.classList.remove('close-active-sei');
     closeDue.classList.remove('close-active-sette');
-  }, 2000);
+  }, 1500);
 }
 
 closeOffc.addEventListener('click', trigOff);
