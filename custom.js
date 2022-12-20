@@ -97,8 +97,9 @@ function carousel() {
     }
   }
 
-  let a = setInterval(moveFirst, 10);
   clone();
+
+  let a = setInterval(moveFirst, 10);
   let b = setInterval(moveSecond, 10);
 }
 
