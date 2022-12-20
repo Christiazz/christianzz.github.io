@@ -67,10 +67,8 @@ function toggleOffcanvas() {
   menuOffcanvas.classList.add('active');
 }
 
-menuOffcanvasToggle.addEventListener('click', toggleOffcanvas);
-
 if (menuOffcanvas.classList.contains('active')) {
   body.style.overflowY = 'hidden';
-} else {
-  return;
 }
+
+menuOffcanvasToggle.addEventListener('click', toggleOffcanvas);
